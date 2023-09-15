@@ -6,9 +6,32 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<header class="cabeçalho">
+ <body>
+    <header class="cabeçalho">
     <div class="container">
-         <span class="cabeçalho_menu-hamburguer"><img src="./img/Menu.svg"></span>
+        <input type="checkbox" id="menu" class="container__botao">
+        <label for="menu">
+             <span class="cabeçalho__menu-hamburguer"><img src="./img/Menu.svg"></span> 
+        </label> 
+        <ul class="lita-menu">
+            <li class="lista-menu__titulo">Categorias</li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Programação</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Front-end</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Infraestrutura</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Business</a>
+
+            </li>    
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Design & UX</a>
+            </li>
+        </ul>
          <img src="./img/Logo.svg" alt="Logo da Alurabooks" class="container_imagem">
     </div> 
     <div class="container">
@@ -17,7 +40,6 @@
         <a href="#"><img src="./img/Usuario.png" alt="Meu perfil" class="container_imagem"></a>
         </div> 
     </header>
-<body>
     
 </body>
 </html>
