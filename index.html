@@ -1,56 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alurabooks</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./header.css">
-    <link rel="stylesheet" href="./banner.css">
-</head>
-<body>
-    <header class="cabeçalho">
-        <div class="container">
-        <input type="checkbox" id="menu" class="container__botao">
-        <label for="menu">
-            <span class="cabeçalho__menu hamburguer container_imagem"></span> 
-        </label> 
-        <ul class="lita-menu">
-            <li class="lista-menu__titulo">Categorias</li>
-            <li class="lista-menu__item">
-                <a href="#" class="lista-menu__link">Programação</a>
-            </li>
-            <li class="lista-menu__item">
-                <a href="#" class="lista-menu__link">Front-end</a>
-            </li>
-            <li class="lista-menu__item">
-                <a href="#" class="lista-menu__link">Infraestrutura</a>
-            </li>
-            <li class="lista-menu__item">
-                <a href="#" class="lista-menu__link">Business</a>
-
-            </li>    
-            <li class="lista-menu__item">
-                <a href="#" class="lista-menu__link">Design & UX</a>
-            </li>
-        </ul>
-         <img src="./img/Logo.svg" alt="Logo da Alurabooks" class="container_imagem">
-        </div> 
-        <div class="container">
-            <a href="#"><img src="./img/Favoritos.svg" alt="Meus favoritos" class="container_imagem"></a>
-            <a href="#"><img src="./img/Sacola.png" alt="Carrinho de compras" class="container_imagem"></a>
-            <a href="#"><img src="./img/Usuario.png" alt="Meu perfil" class="container_imagem"></a>
-        </div> 
-    </header>
-<section class="banner">
-        <h2 class="banner__titulo">Já sabe por onde começar?</h2>
-        <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
-        <input type=”search” class=”banner__pesquisa”
- placeholder="Qual será sua próxima leitura?">
-         </section>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Alurabooks</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="stylesheet" href="./header.css">
+        <link rel=”stylesheet” href=”https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css”/>
+        <link rel="stylesheet" href="./banner.css">
+    </head>
+    <body>
+        <header class="cabeçalho">
+            <div class="container">
+                <input type="checkbox" id="menu" class="container_botao">
+                <label for="menu">
+                    <span class="cabeçalho__menu hamburguer container_imagem"></span> 
+                </label> 
+                <ul class="lita-menu">
+                    <li class="lista-menu_titulo">Categorias</li>
+                    <li class="lista-menu_item">
+                        <a href="#" class="lista-menu_link">Programação</a>
+                    </li>
+                    <li class="lista-menu_item">
+                        <a href="#" class="lista-menu_link">Front-end</a>
+                    </li>
+                    <li class="lista-menu_item">
+                        <a href="#" class="lista-menu_link">Infraestrutura</a>
+                    </li>
+                    <li class="lista-menu_item">
+                        <a href="#" class="lista-menu__ink">Business</a>
+                    </li>    
+                    <li class="lista-menu_item">
+                        <a href="#" class="lista-menu_link">Design & UX</a>
+                    </li>
+                </ul>
+                <img src="./img/Logo.svg" alt="Logo da Alurabooks" class="container_imagem">
+            </div> 
+            <div class="container">
+                <a href="#"><img src="./img/Favoritos.svg" alt="Meus favoritos" class="container_imagem"></a>
+                <a href="#"><img src="./img/Sacola.png" alt="Carrinho de compras" class="container_imagem"></a>
+                <a href="#"><img src="./img/Usuario.png" alt="Meu perfil" class="container_imagem"></a>
+            </div> 
+        </header>
+        <section class="banner">
+            <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+            <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
+            <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
+        </section>    
+        <section class="carrossel"> 
+            <h2 class="carrossel_titulo">Novos lançamentos</h2>
+        </section>
+        
     </body>
-    </html>
+</html>
